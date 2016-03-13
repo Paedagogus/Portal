@@ -1,6 +1,6 @@
-namespace thrownewexception.com.domain.posts
+namespace Paedagogus.Domain.Posts
 {
-    using thrownewexception.com.domain.posts.events;
+    using Paedagogus.Domain.Posts.Events;
 
     public class Post : Aggregate
     {

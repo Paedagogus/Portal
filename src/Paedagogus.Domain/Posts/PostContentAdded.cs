@@ -1,4 +1,4 @@
-namespace thrownewexception.com.domain.posts.events
+namespace Paedagogus.Domain.Posts.Events
 {
     using System;
     

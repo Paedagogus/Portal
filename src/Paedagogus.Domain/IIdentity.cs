@@ -1,4 +1,4 @@
-namespace thrownewexception.com.domain
+namespace Paedagogus.Domain
 {
     public interface IIdentity
     {

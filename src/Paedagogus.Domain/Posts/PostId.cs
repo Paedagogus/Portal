@@ -1,4 +1,4 @@
-namespace thrownewexception.com.domain.posts
+namespace Paedagogus.Domain.Posts
 {
     public class PostId : Identity
     {

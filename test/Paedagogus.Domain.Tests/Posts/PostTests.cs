@@ -1,8 +1,8 @@
-namespace thrownewexception.com.domain.tests
+namespace Paedagogus.Domain.Posts.Tests
 {
     using System;
     using Xunit;
-    using thrownewexception.com.domain.posts;
+    using Paedagogus.Domain.Posts;
     
     public class PostTests
     {
