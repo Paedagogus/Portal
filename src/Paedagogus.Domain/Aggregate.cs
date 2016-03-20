@@ -14,10 +14,10 @@ namespace Paedagogus.Domain
         {
             this.uncommittedEvents.Add(@event);
             Action<object> apply = null;
+            
             if(!handlers.TryGetValue(@event.GetType(), out apply))
             {
-                //TODO: create specific exception to throw in this situation
-                throw new Exception($"Handler not found for event type: {@event.GetType()}");
+                throw new HandleNotFoundException($"Handler not found for event type: {@event.GetType()}");
             }
             
             apply.Invoke(@event);
